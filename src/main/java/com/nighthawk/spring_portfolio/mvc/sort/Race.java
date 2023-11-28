@@ -1,7 +1,23 @@
+import java.util.Random;
+
+
 public class Race {
+    public static int[] generateRandomArray(int length, int maxValue) {
+        int[] array = new int[length];
+        Random random = new Random();
+
+        for (int i = 0; i < length; i++) {
+            array[i] = random.nextInt(maxValue + 1);
+        }
+
+        return array;
+    }
     public static void main(String[] args) {
+        int arrayLength = 1000; // Adjust the length as needed
+        int maxValue = 100; // Adjust the maximum value as needed
+
+        int[] array = generateRandomArray(arrayLength, maxValue);
         // Adjust the length and constants accordingly
-        int[] array = { /* your array elements here */ };
         int constantMultiplier = 1000;
 
         // Run and measure Bubble Sort
