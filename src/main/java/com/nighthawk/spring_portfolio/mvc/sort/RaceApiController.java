@@ -1,3 +1,5 @@
-public class JokesApiController{
-    public getStats(){}
+public class RaceApiController{
+    public getStats(){
+
+    }
 }
