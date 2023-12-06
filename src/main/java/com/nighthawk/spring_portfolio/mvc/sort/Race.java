@@ -55,22 +55,24 @@ public class Race {
         long quickSortTime = endTime - startTime;
         sortingTimes[3] = quickSortTime;
 
-        // Print or store the results
-        System.out.println("Bubble Sort Time: " + bubbleSortTime + " milliseconds");
-        System.out.println("Insertion Sort Time: " + insertionSortTime + " milliseconds");
-        System.out.println("Merge Sort Time: " + mergeSortTime + " milliseconds");
-        System.out.println("Quick Sort Time: " + quickSortTime + " milliseconds");
 
         // Return array of stats
-        // order of array: (bubble, insertion, merge, quick)
+        // order of array: [bubble, insertion, merge, quick]
         return sortingTimes;
 
     }
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         // Adjust the length and constants accordingly
         long[] sortingTimes = runSortingAlgorithms();
 
+        // Print or store the results
+        System.out.println("Bubble Sort Time: " + sortingTimes[0] + " milliseconds");
+        System.out.println("Insertion Sort Time: " + sortingTimes[1] + " milliseconds");
+        System.out.println("Merge Sort Time: " + sortingTimes[2] + " milliseconds");
+        System.out.println("Quick Sort Time: " + sortingTimes[3] + " milliseconds");
+        
+
         // Print or use the sorting times array as needed
         System.out.println("Sorting Algorithm Times: " + Arrays.toString(sortingTimes));
-    }
+    }*/
 }
