@@ -1,4 +1,4 @@
-// QuickSort.java
+package com.nighthawk.spring_portfolio.mvc.sort;
 public class QuickSort implements SortingAlgorithm {
     @Override
     public void sort(int[] array) {

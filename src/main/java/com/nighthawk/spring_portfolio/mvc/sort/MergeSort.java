@@ -1,4 +1,4 @@
-// MergeSort.java
+package com.nighthawk.spring_portfolio.mvc.sort;
 public class MergeSort implements SortingAlgorithm {
     @Override
     public void sort(int[] array) {
